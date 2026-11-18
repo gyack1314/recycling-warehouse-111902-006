@@ -1,0 +1,65 @@
+{
+  "departures": [
+    {
+      "event": "D1",
+      "revision": 1,
+      "partition": "N0",
+      "origin": "N",
+      "trip": "17",
+      "lot": "L1",
+      "at": "2026-10-01T08:00:00Z",
+      "arrival_ref": "A1",
+      "cancelled": false
+    },
+    {
+      "event": "D2",
+      "revision": 1,
+      "partition": "N1",
+      "origin": "S",
+      "trip": "17",
+      "lot": "L2",
+      "at": "2026-10-01T08:00:00Z",
+      "arrival_ref": "A2",
+      "cancelled": false
+    }
+  ],
+  "arrivals": [
+    {
+      "event": "A2",
+      "revision": 1,
+      "partition": "S0",
+      "origin": "S",
+      "trip": "17",
+      "lot": "L2",
+      "at": "2026-10-01T09:00:00Z",
+      "departure_ref": "D2",
+      "cancelled": false
+    }
+  ],
+  "progress": [
+    {
+      "stream": "departures",
+      "partition": "N0",
+      "through": "2026-10-01T09:00:00Z",
+      "state": "active"
+    },
+    {
+      "stream": "departures",
+      "partition": "N1",
+      "through": "2026-10-01T09:00:00Z",
+      "state": "active"
+    },
+    {
+      "stream": "arrivals",
+      "partition": "S0",
+      "through": "2026-10-01T09:00:00Z",
+      "state": "active"
+    },
+    {
+      "stream": "arrivals",
+      "partition": "S1",
+      "through": "2026-10-01T08:00:00Z",
+      "state": "idle"
+    }
+  ]
+}
