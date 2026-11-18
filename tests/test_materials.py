@@ -27,3 +27,5 @@ class InputMaterials(unittest.TestCase):
         self.assertNotEqual(seed['departures'][0]['origin'],seed['departures'][1]['origin'])
         self.assertEqual(seed['progress'][-1]['state'],'idle')
         self.assertTrue(actions[2]['row']['cancelled'])
+        self.assertEqual(sum(x['arrival_ref'] is None for x in seed['departures']),2)
+        self.assertIsNone(seed['arrivals'][-1]['departure_ref'])

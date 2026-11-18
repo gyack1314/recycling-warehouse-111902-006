@@ -2,20 +2,20 @@
   "files": [
     {
       "path": "actions.json",
-      "bytes": 1183,
-      "sha256": "098c64feadd73931757ed39c3f65712254abdcc4559105876a4cbe2a3001c207"
+      "bytes": 1504,
+      "sha256": "812fa1d377fa17eda3b57fd3e8510ecb0347733720c34ca3f20ea4c8ada667aa"
     },
     {
       "path": "arrivals.parquet",
-      "bytes": 2469,
-      "sha256": "8e71aa6284bc56840a3b8513e10b616c063930a6cc825f2326173816789695f3",
-      "rows": 1
+      "bytes": 2502,
+      "sha256": "1cf86ac25df724836ee4d956edee3670230825092dac482c64426014352e5f6d",
+      "rows": 2
     },
     {
       "path": "departures.parquet",
-      "bytes": 2490,
-      "sha256": "48ba6f6f6d5a12e0c423b12875bf112f672238fb8597d3006a544b0037ed2c1c",
-      "rows": 2
+      "bytes": 3997,
+      "sha256": "ad601152b9439648a62bc0b7e02d042b5d20ffc6adcbc244ea80ea39a954ab88",
+      "rows": 4
     },
     {
       "path": "progress.parquet",
@@ -25,8 +25,8 @@
     },
     {
       "path": "seed.json",
-      "bytes": 1340,
-      "sha256": "6022197abb0c332f835eae29e8a82363c3366035d1b8e256f10ef7f4eb3472c0"
+      "bytes": 2059,
+      "sha256": "7492ff41682ef2281f26900c8eaf0e8d2d1ceba430bd82aaa80ae90335131fed"
     }
   ]
 }

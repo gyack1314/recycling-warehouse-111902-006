@@ -21,6 +21,28 @@
       "at": "2026-10-01T08:00:00Z",
       "arrival_ref": "A2",
       "cancelled": false
+    },
+    {
+      "event": "D3",
+      "revision": 1,
+      "partition": "N1",
+      "origin": "S",
+      "trip": "99",
+      "lot": "L9",
+      "at": "2026-10-01T08:10:00Z",
+      "arrival_ref": null,
+      "cancelled": false
+    },
+    {
+      "event": "D4",
+      "revision": 1,
+      "partition": "N1",
+      "origin": "S",
+      "trip": "99",
+      "lot": "L9",
+      "at": "2026-10-01T08:20:00Z",
+      "arrival_ref": null,
+      "cancelled": false
     }
   ],
   "arrivals": [
@@ -33,6 +55,17 @@
       "lot": "L2",
       "at": "2026-10-01T09:00:00Z",
       "departure_ref": "D2",
+      "cancelled": false
+    },
+    {
+      "event": "A9",
+      "revision": 1,
+      "partition": "S0",
+      "origin": "S",
+      "trip": "99",
+      "lot": "L9",
+      "at": "2026-10-01T09:10:00Z",
+      "departure_ref": null,
       "cancelled": false
     }
   ],

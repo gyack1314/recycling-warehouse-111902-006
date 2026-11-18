@@ -57,5 +57,21 @@
       "departure_ref": "D9",
       "cancelled": false
     }
+  },
+  {
+    "step": 5,
+    "table": "departures",
+    "op": "append",
+    "row": {
+      "event": "D9",
+      "revision": 1,
+      "partition": "N1",
+      "origin": "S",
+      "trip": "17",
+      "lot": "L2",
+      "at": "2026-10-01T08:10:00Z",
+      "arrival_ref": "A2",
+      "cancelled": false
+    }
   }
 ]
